@@ -1,3 +1,93 @@
 /* STYLESHEET FOR TeaCozy/index */
 
-body {}
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  margin: 0px;
+  text-align: center;
+}
+
+footer {
+  background-color: lime; /* TEMP */
+  height: 200px;
+  width: 100%;
+}
+header {
+  background-color: darkblue; /* TEMP */
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
+.container {
+  background-color: darkslategray; /* TEMP */
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+  /*opacity: 0.9;*/
+  margin: auto auto;
+  width: 1200px;
+}
+
+.locbox {
+  background-color: black; /* TEMP */
+  margin: 20px;
+  width: 300px;
+}
+
+.locrow {
+  background-color: teal; /* TEMP */
+  display: flex;
+}
+
+.picbox {
+  background-color: black; /* TEMP */
+  display: flex;
+  margin: 5px;
+  width: 300px;
+}
+
+.picrow {
+  background-color: blueviolet;
+  display: flex;
+    justify-content: center;
+  width: 100%;
+}
+
+#locations {
+  background-color: fuchsia; /* TEMP */
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+#mbanner {
+  background-color: maroon; /* TEMP */
+  height: 100px;
+  width: 100%;
+}
+
+#mission {
+  background-color: cadetblue; /* TEMP */
+  display: flex;
+    align-items: center;
+  height: 700px;
+  margin-top: 75px;
+  width: 100%;
+}
+
+#specials {
+  background-color: teal; /* TEMP */
+  display: flex;
+    align-items: center;
+    flex-direction: column;
+  height: 700px;
+  width: 1000px;
+}
