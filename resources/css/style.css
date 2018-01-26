@@ -6,60 +6,94 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   margin: 0px;
+  opacity: 0.9;
   text-align: center;
 }
 
+a:link {
+    color: seashell;
+}
+
+a:visited {
+  color: gray;
+}
+
 footer {
-  background-color: lime; /* TEMP */
   height: 200px;
   width: 100%;
 }
+
+h2,
+h4 {
+  margin: 10px auto;
+}
+
 header {
-  background-color: darkblue; /* TEMP */
+  background-color: black;
   border-bottom: 1px solid seashell;
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
   height: 69px;
+  opacity: 1;
   position: fixed;
   width: 100%;
   z-index: 5;
 }
 
+nav {
+  text-align: right;
+}
+
+span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
 .container {
-  background-color: darkslategray; /* TEMP */
   display: flex;
     align-items: center;
     flex-direction: column;
-  /*opacity: 0.9;*/
   margin: auto auto;
   width: 1200px;
 }
 
 .locbox {
-  background-color: black; /* TEMP */
+  background-color: black;
   margin: 20px;
   width: 300px;
 }
 
 .locrow {
-  background-color: teal; /* TEMP */
   display: flex;
+  margin: 5px;
 }
 
 .picbox {
-  background-color: black; /* TEMP */
   display: flex;
-  margin: 5px;
+    flex-direction: column;
+    justify-content: center;
+  margin: 10px;
+  opacity: 1;
   width: 300px;
 }
 
 .picrow {
-  background-color: blueviolet;
   display: flex;
-    justify-content: center;
-  width: 100%;
+    justify-content: space-between;
+  width: auto;
+}
+
+#copyright {
+  margin-left: 20px;
+  text-align: left;
 }
 
 #locations {
-  background-color: fuchsia; /* TEMP */
+  background-image: url("../img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
     align-items: center;
     flex-direction: column;
@@ -68,14 +102,25 @@ header {
   width: 100%;
 }
 
+#logo {
+  margin-left: 10px;
+}
+
 #mbanner {
-  background-color: maroon; /* TEMP */
-  height: 100px;
+  background-color: black;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  opacity: 1;
+  height: auto;
   width: 100%;
 }
 
 #mission {
-  background-color: cadetblue; /* TEMP */
+  background-image: url("../img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
     align-items: center;
   height: 700px;
@@ -84,10 +129,9 @@ header {
 }
 
 #specials {
-  background-color: teal; /* TEMP */
   display: flex;
     align-items: center;
     flex-direction: column;
-  height: 700px;
+  height: 600px;
   width: 1000px;
 }
